@@ -13,7 +13,7 @@ Apologies for the inconvenience, but due to exhaustion of cloud credit, we won�
 
 
 
-## Datasets used
+## 📃Datasets used
 - [MedQA](https://huggingface.co/datasets/bigbio/med_qa): This is the data and baseline source code for the paper: Jin, Di, et al. "What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams." arXiv preprint arXiv:2009.13081 (2020).
 - [HealthSearchQA](https://github.com/abachaa/MedQuAD): MedQuAD includes 47,457 medical question-answer pairs created from 12 NIH websites (e.g. cancer.gov, niddk.nih.gov, GARD, MedlinePlus Health Topics). The collection covers 37 question types (e.g. Treatment, Diagnosis, Side Effects) associated with diseases, drugs and other medical entities such as tests.  
 
@@ -24,7 +24,7 @@ We constructed medical question-answer pairs for training and testing, with addi
 
 - [MIMIC-III](https://physionet.org/content/mimiciii/1.4/): A dataset consisting of 65 clinician-written summaries of medical notes from MIMIC-III, a large, publicly available database containing medical records of intensive care unit patients, was used as additional training data for DIAA. MIMIC-III contains approximately 2 million notes spanning 13 types including cardiology, respiratory, radiology, physician, general, discharge, case management, consult, nursing, pharmacy, nutrition, rehabilitation and social work.
 
-- <ins>**Custom Dataset using simulated AI Agents**:</ins> In order to produce high-quality simulated dialogues at scale, we developed a novel multi-agent framework which comprised three key components:
+- <ins>**Custom Dataset using simulated AI Agents🤖**:</ins> In order to produce high-quality simulated dialogues at scale, we developed a novel multi-agent framework which comprised three key components:
   - Vignette Generator: AMIE leverages web searches to craft unique patient vignettes given a specific
 medical condition.
   - Simulated Dialogue Generator: Three LLM agents play the roles of patient agent, doctor agent,
