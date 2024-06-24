@@ -9,7 +9,7 @@ _Imagine a world where every patient has instant access to a medical expert, 24/
 
 Apologies for the inconvenience, but due to exhaustion of cloud credit, we won’t be able to provide a live demo. However, you can still view DIAA’s responses here.
 
-
+[![Testing DIAA’s reasoning ability](https://github.com/xnileshtiwari/DIAA-Diagnostic-Intelligence-Analytical-Assistant-/assets/135645478/c9f82974-2635-4d71-9b46-a779e2f25525)](https://youtu.be/_-zZYTIMEd4 "CrewAI Tutorial")
 
 
 
