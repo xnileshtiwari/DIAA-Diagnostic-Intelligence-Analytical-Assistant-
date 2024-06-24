@@ -29,3 +29,8 @@ medical condition.
 and moderator, engaging in a turn-by-turn dialogue simulating realistic diagnostic interactions.
   - `Self-play Critic:` A fourth LLM agent acts as a critic to give feedback to the doctor agent for self-improvement. Notably, AMIE acted as all agents in this framework.
 
+
+
+## License
+
+DIAA is released under the MIT License.
