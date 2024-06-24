@@ -31,6 +31,5 @@ and moderator, engaging in a turn-by-turn dialogue simulating realistic diagnost
 
 
 
-## License
 
-DIAA is released under the MIT License.
+
