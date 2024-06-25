@@ -19,37 +19,37 @@ chat = chat_model.start_chat(
 
 
 
+
+
 response = chat.send_message("""Hello""", **parameters)
 print(f"Response from Model: {response.text}")
 
 
 
 
-st.title("Hi 👋🏼 I'm DIAA (Diagnostic Intelligence Analytical Assistant)")
+st.markdown("<h1 style='text-align: center;'>Hi 👋🏼 I'm DIAA👩🏼‍⚕️</h1>", unsafe_allow_html=True)
+
 
 
 if "model" not in st.session_state:
     st.session_state["model"] = "chat-bison@002"
 
-if "messages" not in st.session_state:
-    st.session_state.messages = []
-
 for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
+    #works from 2 question
+    with st.chat_message(message["role"], avatar=f"{(message['role'] == 'user' and 'boy.png') or 'doctor (1).png'}"):
         st.markdown(message["content"])
 
+# Accept user input
 if prompt := st.chat_input("What is up?"):
-    st.session_state.messages.append({"role": "user", "content": prompt})
-    with st.chat_message("user"):
+    # Add user message to chat history
+    st.session_state.messages.append({"role": "user", "avatar": 'boy.png', "content": prompt})
+    # Display user message in chat message container
+    with st.chat_message("user", avatar='boy.png'):
         st.markdown(prompt)
+        time.sleep(2)
 
-    with st.chat_message("assistant"):
-        try:
-            response = chat.send_message(
-                prompt,
-                context=[
-                    {"role": m["role"], "content": m["content"]} for m in st.session_state.messages
-                ],
-                **parameters
-            )
-            st.session_state.messages.append({"role": "assistant", "content": response})
+    # Display assistant response in chat message container
+    with st.chat_message("assistant", avatar='doctor (1).png'):
+        response = st.write_stream(response_generator())
+    # Add assistant response to chat history
+    st.session_state.messages.append({"role": "assistant", "avatar": 'doctor (1).png', "content": response})
