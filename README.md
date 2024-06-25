@@ -12,14 +12,15 @@ _Imagine a world where every patient has instant access to a medical expert, 24/
 [![Testing DIAA’s reasoning ability](https://github.com/xnileshtiwari/DIAA-Diagnostic-Intelligence-Analytical-Assistant-/assets/135645478/c9f82974-2635-4d71-9b46-a779e2f25525)](https://youtu.be/-ueoiTlqqa8 "Testing DIAA")
 
 
+| 1 | 2 |
+|--------------|--------------|
+| ![Image 1](https://github.com/xnileshtiwari/DIAA-Diagnostic-Intelligence-Analytical-Assistant-/assets/135645478/ed34e814-3687-4b37-ae2a-413ff1437cf1) | ![Image 2](https://github.com/xnileshtiwari/DIAA-Diagnostic-Intelligence-Analytical-Assistant-/assets/135645478/5cc86dbf-6ffb-49ff-a9b4-3087b2ba334b) |
+
+| 3 | 4 |
+|--------------|--------------|
+| ![Image 3](https://github.com/xnileshtiwari/DIAA-Diagnostic-Intelligence-Analytical-Assistant-/assets/135645478/8f86700d-1b5d-490e-9cc3-3d14884ea072) | ![Image 4](https://github.com/xnileshtiwari/DIAA-Diagnostic-Intelligence-Analytical-Assistant-/assets/135645478/0b649697-0947-41fb-bbda-588dead031db) |
 
 
-
-
-<img class="image-align-left" src="https://github.com/xnileshtiwari/DIAA-Diagnostic-Intelligence-Analytical-Assistant-/assets/135645478/ed34e814-3687-4b37-ae2a-413ff1437cf1"/>
-<img class="image-align-left" src="https://github.com/xnileshtiwari/DIAA-Diagnostic-Intelligence-Analytical-Assistant-/assets/135645478/5cc86dbf-6ffb-49ff-a9b4-3087b2ba334b"/>
-<img class="image-align-left" src="https://github.com/xnileshtiwari/DIAA-Diagnostic-Intelligence-Analytical-Assistant-/assets/135645478/8f86700d-1b5d-490e-9cc3-3d14884ea072"/>
-<img class="image-align-left" src="https://github.com/xnileshtiwari/DIAA-Diagnostic-Intelligence-Analytical-Assistant-/assets/135645478/0b649697-0947-41fb-bbda-588dead031db"/>
 
 
 
